@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="lgfxtzwj6TRO_Asds8UX" name="Página-1">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontSize=14;" value="curso" vertex="1">
+          <mxGeometry height="90" width="200" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-2" parent="Hhp_UY_FVTZJDMXWUORX-1" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_curso (PK)" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-3" parent="Hhp_UY_FVTZJDMXWUORX-1" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="nome" vertex="1">
+          <mxGeometry height="30" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-4" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontSize=14;" value="disciplina" vertex="1">
+          <mxGeometry height="90" width="200" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-5" parent="Hhp_UY_FVTZJDMXWUORX-4" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_disciplina (PK)" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-6" parent="Hhp_UY_FVTZJDMXWUORX-4" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="nome" vertex="1">
+          <mxGeometry height="30" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-7" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontSize=14;" value="professor" vertex="1">
+          <mxGeometry height="120" width="200" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-8" parent="Hhp_UY_FVTZJDMXWUORX-7" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_professor (PK)" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-9" parent="Hhp_UY_FVTZJDMXWUORX-7" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="nome" vertex="1">
+          <mxGeometry height="30" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-10" parent="Hhp_UY_FVTZJDMXWUORX-7" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="email" vertex="1">
+          <mxGeometry height="30" width="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-11" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontSize=14;" value="periodo_letivo" vertex="1">
+          <mxGeometry height="90" width="200" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-12" parent="Hhp_UY_FVTZJDMXWUORX-11" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_periodo (PK)" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-13" parent="Hhp_UY_FVTZJDMXWUORX-11" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="ano/semestre" vertex="1">
+          <mxGeometry height="30" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-14" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontSize=14;" value="turma" vertex="1">
+          <mxGeometry height="150" width="250" x="400" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-15" parent="Hhp_UY_FVTZJDMXWUORX-14" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_turma (PK)" vertex="1">
+          <mxGeometry height="30" width="250" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-16" parent="Hhp_UY_FVTZJDMXWUORX-14" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_disciplina (FK)" vertex="1">
+          <mxGeometry height="30" width="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-17" parent="Hhp_UY_FVTZJDMXWUORX-14" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_professor (FK)" vertex="1">
+          <mxGeometry height="30" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-18" parent="Hhp_UY_FVTZJDMXWUORX-14" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_periodo (FK)" vertex="1">
+          <mxGeometry height="30" width="250" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-19" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontSize=14;" value="matricula" vertex="1">
+          <mxGeometry height="120" width="200" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-20" parent="Hhp_UY_FVTZJDMXWUORX-19" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_matricula (PK)" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-21" parent="Hhp_UY_FVTZJDMXWUORX-19" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_aluno (FK)" vertex="1">
+          <mxGeometry height="30" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-22" parent="Hhp_UY_FVTZJDMXWUORX-19" style="shape=partialRectangle;connectable=0;fillColor=none;overflow=hidden;" value="id_turma (FK)" vertex="1">
+          <mxGeometry height="30" width="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-23" edge="1" parent="1" source="Hhp_UY_FVTZJDMXWUORX-4" target="Hhp_UY_FVTZJDMXWUORX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-24" edge="1" parent="1" source="Hhp_UY_FVTZJDMXWUORX-7" target="Hhp_UY_FVTZJDMXWUORX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-25" edge="1" parent="1" source="Hhp_UY_FVTZJDMXWUORX-11" target="Hhp_UY_FVTZJDMXWUORX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hhp_UY_FVTZJDMXWUORX-26" edge="1" parent="1" source="Hhp_UY_FVTZJDMXWUORX-14" target="Hhp_UY_FVTZJDMXWUORX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
